@@ -187,6 +187,18 @@ CHAR_MAPS = {
     # M1E (4th party character) wasn't visible on the verification screenshot
 }
 
+TILE_MAPS = {
+    "TILESX": {0:0, 1:4, 2:1, 3:5, 4:3, 5:7, 6:8, 7:2, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},  # skip = 0
+    "DUNGEON": {0:0, 1:4, 2:1, 3:5, 4:3, 5:7, 6:8, 7:2, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "WATER": {0:0, 1:4, 2:1, 3:5, 4:3, 5:7, 6:8, 7:2, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "BROWN": {0:0, 1:4, 2:1, 3:5, 4:3, 5:7, 6:12, 7:10, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "RUNES": {0:0, 1:4, 2:1, 3:5, 4:3, 5:15, 6:10, 7:14, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "BROWN_RUNES": {0:0, 1:4, 2:12, 3:10, 4:14, 5:15, 6:10, 7:14, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "GRASS": {0:0, 1:4, 2:9, 3:13, 4:11, 5:7, 6:9, 7:13, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15},
+    "GRASS_DARK": {0:0, 1:4, 2:4, 3:1, 4:9, 5:7, 6:4, 7:1, 8:8, 9:9, 10:10, 11:11, 12:12, 13:13, 14:14, 15:15}
+}
+
+
 REMAPS = [[2, 3, 4, 5, 6, 7], [12, 3, 4, 5, 13, 14], [13, 9, 10, 5, 14, 5], [2, 4, 10, 5, 8, 14], [2, 3, 4, 5, 13, 14], [13, 14, 15, 5, 3, 4], [12, 8, 4, 5, 14, 15], [2, 3, 4, 12, 13, 14], [2, 9, 10, 12, 13, 14], [12, 13, 4, 5, 9, 10], [2, 9, 15, 5, 13, 14], [4, 5, 4, 5, 13, 14], [12, 13, 14, 15, 4, 5], [2, 3, 4, 5, 4, 5], [12, 13, 14, 15, 9, 10], [12, 13, 14, 15, 12, 8], [12, 13, 14, 15, 6, 7], [12, 13, 14, 5, 6, 7], [12, 13, 14, 5, 12, 8], [12, 13, 14, 5, 14, 15], [12, 13, 14, 5, 10, 11], [12, 13, 14, 5, 3, 4], [12, 13, 14, 5, 13, 14], [9, 10, 11, 5, 6, 7], [2, 9, 10, 11, 13, 15], [2, 3, 4, 5, 9, 10], [2, 9, 10, 5, 14, 15], [2, 3, 4, 5, 12, 13], [13, 14, 15, 5, 2, 3], [2, 9, 10, 5, 12, 8], [2, 7, 4, 5, 13, 15], [2, 3, 4, 5, 14, 15], [13, 14, 15, 5, 9, 10], [13, 14, 15, 5, 6, 7], [2, 3, 4, 5, 12, 8], [1, 2, 3, 4, 6, 7], [12, 12, 13, 14, 6, 7], [13, 15, 5, 5, 6, 7], [12, 8, 14, 15, 6, 7], [3, 4, 5, 5, 6, 7], [3, 15, 5, 5, 6, 7], [12, 13, 14, 15, 5, 5], [12, 3, 4, 5, 14, 15], [12, 3, 4, 5, 8, 15], [12, 3, 4, 5, 13, 14], [8, 9, 10, 5, 8, 15], [12, 8, 14, 5, 3, 4], [12, 13, 14, 14, 2, 13], [9, 3, 4, 5, 10, 11], [3, 4, 5, 5, 10, 11], [3, 4, 11, 5, 9, 10], [2, 11, 4, 5, 9, 10], [12, 13, 14, 7, 0, 8], [13, 14, 15, 7, 13, 14], [12, 8, 10, 11, 0, 0], [13, 14, 4, 5, 8, 15], [2, 2, 9, 10, 0, 0], [2, 10, 11, 5, 0, 0], [2, 10, 5, 5, 0, 0], [12, 12, 8, 14, 0, 0], [1, 2, 6, 7, 0, 0], [1, 6, 7, 4, 0, 0], [13, 14, 5, 5, 0, 0], [1, 1, 2, 3, 0, 0], [2, 3, 4, 5, 2, 9], [2, 3, 4, 5, 10, 11], [2, 3, 4, 5, 11, 5], [2, 3, 4, 5, 8, 15], [2, 3, 4, 5, 15, 5], [2, 3, 4, 5, 7, 4], [2, 3, 4, 5, 2, 3], [8, 14, 15, 5, 6, 0], [12, 8, 14, 15, 5, 0], [2, 9, 10, 5, 8, 0], [2, 9, 10, 11, 5, 0], [2, 9, 4, 5, 8, 0], [2, 9, 4, 5, 5, 0], [2, 7, 4, 5, 5, 0], [2, 6, 7, 4, 5, 0], [13, 14, 15, 5, 12, 8], [2, 9, 4, 5, 6, 7], [2, 9, 10, 5, 4, 5], [8, 14, 15, 5, 2, 3], [9, 10, 11, 5, 12, 8], [14, 15, 15, 5, 0, 0], [13, 14, 15, 5, 8, 14], [13, 14, 15, 5, 13, 14], [12, 6, 7, 5, 13, 14], [1, 2, 3, 0, 2, 3], [1, 2, 9, 0, 2, 9], [1, 12, 13, 0, 12, 13], [2, 3, 4, 5, 3, 4], [2, 3, 4, 14, 12, 8], [9, 10, 11, 5, 10, 11], [13, 14, 15, 5, 14, 15], [2, 3, 4, 15, 13, 14], [2, 3, 4, 10, 2, 9], [2, 3, 12, 13, 6, 7], [12, 13, 14, 15, 13, 14], [6, 7, 4, 0, 7, 4], [6, 7, 4, 0, 12, 8], [2, 9, 10, 11, 9, 10], [2, 3, 4, 4, 2, 3], [2, 9, 10, 11, 12, 8], [12, 13, 14, 15, 3, 4], [1, 2, 9, 0, 1, 2], [1, 2, 3, 0, 1, 2], [1, 12, 13, 0, 1, 12], [9, 10, 11, 0, 9, 10], [12, 13, 14, 15, 12, 13], [6, 7, 4, 0, 6, 7], [2, 9, 10, 0, 2, 9], [12, 13, 14, 15, 8, 13], [12, 13, 14, 15, 3, 5], [13, 14, 15, 7, 48, 49], [50, 51, 1, 2, 3, 4], [5, 0, 12, 13, 14, 15], [5, 0, 12, 13, 12, 13], [2, 3, 4, 5, 14, 15], [15, 15, 8, 8, 126, 68], [72, 80, 96, 64, 64, 0], [16, 40, 68, 130, 68, 40], [16, 0, 16, 56, 84, 146], [16, 16, 16, 0, 68, 68], [68, 68, 68, 68, 68, 0], [16, 32, 64, 254, 4, 8], [16, 0, 144, 80, 48, 16], [24, 20, 18, 0, 16, 24]]
 # Live XLAT semantics (rebuilt at runtime; nibble -> screen color, 0 = no-op):
 NIB2COLOR = {0: None, 1: 4, 2: 1, 3: 5, 4: 3, 5: 7, 6: 8, 7: 2, 8: 6, 9: 9,
@@ -274,13 +286,13 @@ def load_pac_stream(pac_path, stream=0, verbose=True):
 
 
 def build_sprite_sheet_image(raw, mapping_values, width=32, height=32, cols=10, palette=None,
-                             pad=3, bg=(50, 50, 60)):
+                             planes=3, pad=3, bg=(50, 50, 60)):
     """Build a PIL image for sprite data using 16-entry mapping values."""
     from PIL import Image
     pal = palette or PALETTES['game1']
     mv = mapping_to_values(mapping_values)
     wch = width // 16
-    row_b = wch * 6
+    row_b = wch * 2 * planes
     fsz = row_b * height
     n = len(raw) // fsz
     rows = (n + cols - 1) // cols if n else 1
@@ -292,14 +304,15 @@ def build_sprite_sheet_image(raw, mapping_values, width=32, height=32, cols=10, 
         oy = (s // cols) * (height + pad)
         for y in range(height):
             for ch in range(wch):
-                cb = base + y * row_b + ch * 6
-                pw = [(raw[cb + 2 * p] << 8) | raw[cb + 2 * p + 1] for p in range(3)]
+                cb = base + y * row_b + ch * 2 * planes
+                pw = [(raw[cb + 2 * p] << 8) | raw[cb + 2 * p + 1] for p in range(planes)]
                 for bit in range(16):
                     bm = 0x8000 >> bit
-                    c = sum(((pw[p] & bm) != 0) << p for p in range(3))
-                    m = mv[c]
-                    if m != 0:
-                        px[ox + ch * 16 + bit, oy + y] = pal[m % len(pal)]
+                    c = sum(((pw[p] & bm) != 0) << p for p in range(planes))
+                    if c < 16:
+                        c = mv[c]
+                    if c != 0:
+                        px[ox + ch * 16 + bit, oy + y] = pal[c % len(pal)]
     return img, n
 
 
@@ -338,7 +351,7 @@ def build_tiles_sheet_image(raw, mapping_values, width=32, height=16, planes=3, 
 def render_sprites_with_mapping(raw, out_png, mapping, width=32, height=32, cols=10, scale=3, palette=None):
     """Render sprite sheet using an explicit combo->palette-index mapping dict."""
     from PIL import Image
-    img, n = build_sprite_sheet_image(raw, mapping_to_values(mapping), width, height, cols, palette)
+    img, n = build_sprite_sheet_image(raw, mapping_to_values(mapping), width, height, cols, palette, planes=3)
     img.resize((img.width*scale, img.height*scale), Image.NEAREST).save(out_png)
     print(f"saved {out_png} ({n} frames {width}x{height})")
 
@@ -358,6 +371,9 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
     mapping = mapping_to_values(mapping_values)
     selected = 0
     help_h = 240
+    view_width = max(16, (width // 16) * 16)
+    view_height = max(1, height)
+    view_planes = max(1, min(4, 3))
     current_pac = pac_path or 'unknown.pac'
     current_stream = stream
     status_msg = 'ready'
@@ -369,7 +385,7 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
     font = pygame.font.SysFont('Menlo', 18)
     small = pygame.font.SysFont('Menlo', 14)
 
-    sheet, nframes = build_sprite_sheet_image(raw, mapping, width, height, cols, pal)
+    sheet, nframes = build_sprite_sheet_image(raw, mapping, view_width, view_height, cols, pal, planes=view_planes)
     scaled_sheet = sheet.resize((sheet.width * scale, sheet.height * scale), Image.NEAREST)
     sheet_surf = pygame.image.fromstring(scaled_sheet.tobytes(), scaled_sheet.size, scaled_sheet.mode)
 
@@ -378,11 +394,20 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
     screen = pygame.display.set_mode((win_w, win_h), pygame.RESIZABLE)
     pygame.display.set_caption('Sprite Mapping Viewer')
 
+    def ensure_window_size():
+        nonlocal screen
+        min_w = max(sheet_surf.get_width(), 700)
+        min_h = sheet_surf.get_height() + help_h
+        cur_w, cur_h = screen.get_size()
+        if cur_w < min_w or cur_h < min_h:
+            screen = pygame.display.set_mode((max(cur_w, min_w), max(cur_h, min_h)), pygame.RESIZABLE)
+
     def rebuild_sheet():
         nonlocal sheet, scaled_sheet, sheet_surf, nframes
-        sheet, nframes = build_sprite_sheet_image(raw, mapping, width, height, cols, pal)
+        sheet, nframes = build_sprite_sheet_image(raw, mapping, view_width, view_height, cols, pal, planes=view_planes)
         scaled_sheet = sheet.resize((sheet.width * scale, sheet.height * scale), Image.NEAREST)
         sheet_surf = pygame.image.fromstring(scaled_sheet.tobytes(), scaled_sheet.size, scaled_sheet.mode)
+        ensure_window_size()
 
     def draw_ui():
         screen.fill((24, 24, 30))
@@ -392,6 +417,7 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
 
         title = font.render(
             f'file={os.path.basename(current_pac)} stream={current_stream} frames={nframes} '
+            f'w={view_width} h={view_height} pl={view_planes} '
             f'selected={selected:02X} map[{selected:X}]={mapping[selected]:X}',
             True, (230, 230, 235)
         )
@@ -400,7 +426,8 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
         instructions = [
             'Left/Right: select source value   Up/Down: change mapped value',
             'Type 0-9 or A-F to set mapped value directly',
-            'R: reset identity   Z: zero all (transparent)   S: save PNG',
+            'Shift+Left/Right: width -/+16   Shift+Up/Down: height -/+1',
+            'PgUp/PgDn: planes +/-1   R: reset identity   Z: zero all   S: save PNG',
             'M: save map file   L: load PAC path   [/]: stream -/+   Q/Esc: quit',
         ]
         instr_y = panel_y + 40
@@ -448,6 +475,7 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
                 continue
 
             k = ev.key
+            mods = ev.mod
             if load_mode:
                 if k == pygame.K_ESCAPE:
                     load_mode = False
@@ -481,6 +509,46 @@ def render_sprites_with_mapping_live(raw, mapping_values, width=32, height=40, c
 
             if k in (pygame.K_q, pygame.K_ESCAPE):
                 running = False
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_LEFT:
+                next_width = max(16, view_width - 16)
+                if next_width != view_width:
+                    view_width = next_width
+                    rebuild_sheet()
+                    status_msg = f'width={view_width}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_RIGHT:
+                view_width += 16
+                rebuild_sheet()
+                status_msg = f'width={view_width}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_UP:
+                view_height += 1
+                rebuild_sheet()
+                status_msg = f'height={view_height}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_DOWN:
+                next_height = max(1, view_height - 1)
+                if next_height != view_height:
+                    view_height = next_height
+                    rebuild_sheet()
+                    status_msg = f'height={view_height}'
+                dirty = True
+            elif k == pygame.K_PAGEUP:
+                if view_planes < 4:
+                    view_planes += 1
+                    rebuild_sheet()
+                    status_msg = f'planes={view_planes}'
+                else:
+                    status_msg = 'planes already at max 4'
+                dirty = True
+            elif k == pygame.K_PAGEDOWN:
+                if view_planes > 1:
+                    view_planes -= 1
+                    rebuild_sheet()
+                    status_msg = f'planes={view_planes}'
+                else:
+                    status_msg = 'planes already at min 1'
+                dirty = True
             elif k == pygame.K_LEFT:
                 selected = (selected - 1) & 0x0F
                 dirty = True
@@ -588,6 +656,10 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
     mapping = mapping_to_values(mapping_values)
     selected = 0
     help_h = 240
+    view_width = max(16, (width // 16) * 16)
+    view_height = max(1, height)
+    view_planes = max(1, min(4, planes))
+    view_skip = max(0, skip)
     current_pac = pac_path or 'unknown.pac'
     current_stream = stream
     status_msg = 'ready'
@@ -599,7 +671,7 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
     font = pygame.font.SysFont('Menlo', 18)
     small = pygame.font.SysFont('Menlo', 14)
 
-    sheet, ntiles = build_tiles_sheet_image(raw, mapping, width, height, planes, skip, cols, pal)
+    sheet, ntiles = build_tiles_sheet_image(raw, mapping, view_width, view_height, view_planes, view_skip, cols, pal)
     scaled_sheet = sheet.resize((sheet.width * scale, sheet.height * scale), Image.NEAREST)
     sheet_surf = pygame.image.fromstring(scaled_sheet.tobytes(), scaled_sheet.size, scaled_sheet.mode)
 
@@ -608,11 +680,20 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
     screen = pygame.display.set_mode((win_w, win_h), pygame.RESIZABLE)
     pygame.display.set_caption('Tile Mapping Viewer')
 
+    def ensure_window_size():
+        nonlocal screen
+        min_w = max(sheet_surf.get_width(), 700)
+        min_h = sheet_surf.get_height() + help_h
+        cur_w, cur_h = screen.get_size()
+        if cur_w < min_w or cur_h < min_h:
+            screen = pygame.display.set_mode((max(cur_w, min_w), max(cur_h, min_h)), pygame.RESIZABLE)
+
     def rebuild_sheet():
         nonlocal sheet, scaled_sheet, sheet_surf, ntiles
-        sheet, ntiles = build_tiles_sheet_image(raw, mapping, width, height, planes, skip, cols, pal)
+        sheet, ntiles = build_tiles_sheet_image(raw, mapping, view_width, view_height, view_planes, view_skip, cols, pal)
         scaled_sheet = sheet.resize((sheet.width * scale, sheet.height * scale), Image.NEAREST)
         sheet_surf = pygame.image.fromstring(scaled_sheet.tobytes(), scaled_sheet.size, scaled_sheet.mode)
+        ensure_window_size()
 
     def draw_ui():
         screen.fill((24, 24, 30))
@@ -622,6 +703,7 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
 
         title = font.render(
             f'file={os.path.basename(current_pac)} stream={current_stream} tiles={ntiles} '
+            f'w={view_width} h={view_height} pl={view_planes} skip={view_skip} '
             f'selected={selected:02X} map[{selected:X}]={mapping[selected]:X}',
             True, (230, 230, 235)
         )
@@ -630,6 +712,8 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
         instructions = [
             'Left/Right: select source value   Up/Down: change mapped value',
             'Type 0-9 or A-F to set mapped value directly',
+            'Shift+Left/Right: width -/+16   Shift+Up/Down: height -/+1',
+            'PgUp/PgDn: planes +/-1   ,/.: skip -/+1   Shift+,/.: skip -/+16',
             'R: reset identity   Z: zero all   S: save PNG',
             'M: save map file   L: load PAC path   [/]: stream -/+   Q/Esc: quit',
         ]
@@ -678,6 +762,7 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
                 continue
 
             k = ev.key
+            mods = ev.mod
             if load_mode:
                 if k == pygame.K_ESCAPE:
                     load_mode = False
@@ -711,6 +796,62 @@ def render_tiles_with_mapping_live(raw, mapping_values, width=32, height=16, pla
 
             if k in (pygame.K_q, pygame.K_ESCAPE):
                 running = False
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_LEFT:
+                next_width = max(16, view_width - 16)
+                if next_width != view_width:
+                    view_width = next_width
+                    rebuild_sheet()
+                    status_msg = f'width={view_width}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_RIGHT:
+                view_width += 16
+                rebuild_sheet()
+                status_msg = f'width={view_width}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_UP:
+                view_height += 1
+                rebuild_sheet()
+                status_msg = f'height={view_height}'
+                dirty = True
+            elif mods & pygame.KMOD_SHIFT and k == pygame.K_DOWN:
+                next_height = max(1, view_height - 1)
+                if next_height != view_height:
+                    view_height = next_height
+                    rebuild_sheet()
+                    status_msg = f'height={view_height}'
+                dirty = True
+            elif k == pygame.K_PAGEUP:
+                if view_planes < 4:
+                    view_planes += 1
+                    rebuild_sheet()
+                    status_msg = f'planes={view_planes}'
+                else:
+                    status_msg = 'planes already at max 4'
+                dirty = True
+            elif k == pygame.K_PAGEDOWN:
+                if view_planes > 1:
+                    view_planes -= 1
+                    rebuild_sheet()
+                    status_msg = f'planes={view_planes}'
+                else:
+                    status_msg = 'planes already at min 1'
+                dirty = True
+            elif k == pygame.K_COMMA:
+                delta = 16 if mods & pygame.KMOD_SHIFT else 1
+                next_skip = max(0, view_skip - delta)
+                if next_skip != view_skip:
+                    view_skip = next_skip
+                    rebuild_sheet()
+                    status_msg = f'skip={view_skip}'
+                else:
+                    status_msg = 'skip already at 0'
+                dirty = True
+            elif k == pygame.K_PERIOD:
+                delta = 16 if mods & pygame.KMOD_SHIFT else 1
+                view_skip += delta
+                rebuild_sheet()
+                status_msg = f'skip={view_skip}'
+                dirty = True
             elif k == pygame.K_LEFT:
                 selected = (selected - 1) & 0x0F
                 dirty = True
@@ -970,7 +1111,7 @@ def render_fsprites(raw, out_png, scale=2, palette=None, append=None):
           + f"; tiling {adj}/{max(len(uniq)-1,1)} adjacent")
 
     # pre-compute layout, then allocate exact canvas
-    SHEET_W, pad_x, pad_y = 1280, 6, 14
+    SHEET_W, pad_x, pad_y = 1280, 0, 0
     pos = []
     x, y, rowh = 4, 12, 0
     for k, w, h, off in sprites:
@@ -985,7 +1126,7 @@ def render_fsprites(raw, out_png, scale=2, palette=None, append=None):
     d = ImageDraw.Draw(sheet)
     px = sheet.load()
     for x, y, k, w, h, off in pos:
-        d.text((x, y-10), str(k), fill=(255, 255, 0))
+        #d.text((x, y-10), str(k), fill=(255, 255, 0))
         for yy in range(h):
             for ch in range(w):
                 cb = off + yy*w*8 + ch*8
@@ -994,7 +1135,10 @@ def render_fsprites(raw, out_png, scale=2, palette=None, append=None):
                     bm = 0x8000 >> bit
                     c = sum(((pw[p] & bm) != 0) << p for p in range(4))
                     if c:
-                        px[x+ch*16+bit, y+yy] = pal[c % len(pal)]
+                        color = pal[c % len(pal)]
+                    else:
+                        color = (50, 50, 50)
+                    px[x+ch*16+bit, y+yy] = color
     sheet.resize((sheet.width*scale, sheet.height*scale), Image.NEAREST).save(out_png)
     print(f"saved {out_png}")
 
